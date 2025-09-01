@@ -191,7 +191,7 @@
     cursor: pointer;
   }
   body {
-    @apply relative font-normal z-1 bg-gray-50;
+    @apply relative font-normal z-[var(--z-index-1)] bg-gray-50;
     font-family: var(--font-outfit);
   }
 }

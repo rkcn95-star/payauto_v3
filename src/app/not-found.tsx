@@ -5,7 +5,7 @@ import React from "react";
 
 export default function NotFound() {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen p-6 overflow-hidden z-1">
+    <div className="relative flex flex-col items-center justify-center min-h-screen p-6 overflow-hidden z-[var(--z-index-1)]">
       <GridShape />
       <div className="mx-auto w-full max-w-[242px] text-center sm:max-w-[472px]">
         <h1 className="mb-8 font-bold text-gray-800 text-title-md dark:text-white/90 xl:text-title-2xl">
