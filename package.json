@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "TAILWIND_ENGINE=js next dev",
-    "build": "next build",
+    "build": "TAILWIND_ENGINE=js next build",
     "start": "next start",
     "lint": "next lint"
   },
